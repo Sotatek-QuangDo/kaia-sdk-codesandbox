@@ -23,6 +23,9 @@ import Web3jsExtSignTransactionAccountKeyWeightedMultiSigPage from "../pages/web
 import Web3jsExtSignTransactionAccountKeyPublicPage from "../pages/web3js-ext/SignTransaction/AccountKeyPublic";
 import Web3jsExtSignTransactionAccountKeyRoleBasedPage from "../pages/web3js-ext/SignTransaction/AccountKeyRoleBased";
 
+// Gasless Web3jsExt
+import Web3jsExtGaslessPage from "../pages/web3js-ext/Gas-Abstraction/Gasless";
+
 // AccountKey EthersExt
 import EthersExtAccountKeyLegacyPage from "../pages/ethers-ext-v6/AccountKey/AccountKeyLegacy";
 import EthersExtAccountKeyWeightedMultiSigPage from "../pages/ethers-ext-v6/AccountKey/AccountKeyWeightedMultiSig";
@@ -40,6 +43,9 @@ import EthersExtSignTransactionAccountKeyLegacyPage from "../pages/ethers-ext-v6
 import EthersExtSignTransactionAccountKeyWeightedMultiSigPage from "../pages/ethers-ext-v6/SignTransaction/AccountKeyWeightedMultiSig";
 import EthersExtSignTransactionAccountKeyPublicPage from "../pages/ethers-ext-v6/SignTransaction/AccountKeyPublic";
 import EthersExtSignTransactionAccountKeyRoleBasedPage from "../pages/ethers-ext-v6/SignTransaction/AccountKeyRoleBased";
+
+// Gasless Web3jsExt
+import EthersExtGaslessPage from "../pages/ethers-ext-v6/Gas-Abstraction/Gasless";
 
 // basic transaction
 import ViemExtAccountUpdatePage from "../pages/viem-ext/basic-transaction/AccountUpdate";
@@ -124,6 +130,10 @@ export default [
         path: RoutePath.Web3jsExt_SignTx_Role,
         Component: Web3jsExtSignTransactionAccountKeyRoleBasedPage,
       },
+      {
+        path: RoutePath.Web3jsExt_Gasless,
+        Component: Web3jsExtGaslessPage,
+      },
 
       // -------------------------- EthersExt ----------------
 
@@ -179,6 +189,10 @@ export default [
       {
         path: RoutePath.EthersExt_SignTx_Role,
         Component: EthersExtSignTransactionAccountKeyRoleBasedPage,
+      },
+      {
+        path: RoutePath.EthersExt_Gasless,
+        Component: EthersExtGaslessPage,
       },
 
       // -------------------------- Viem Ext ----------------

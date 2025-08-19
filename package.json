@@ -11,8 +11,8 @@
     "react-dom": "18.2.0",
     "react-scripts": "5.0.1",
     "react-router": "^7.1.1",
-    "@kaiachain/web3js-ext": "2.0.1",
-    "@kaiachain/ethers-ext": "2.0.1",
+    "@kaiachain/web3js-ext": "2.0.8",
+    "@kaiachain/ethers-ext": "2.0.8",
     "@kaiachain/viem-ext": "^2.0.4",
     "@noble/hashes": "^1.8.0"
   },

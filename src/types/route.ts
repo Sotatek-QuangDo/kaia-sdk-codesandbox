@@ -21,6 +21,9 @@ export enum RoutePath {
   Web3jsExt_SignTx_Public = "/web3js-ext/tx/public",
   Web3jsExt_SignTx_Role = "/web3js-ext/tx/role",
 
+  // 4. Web3jsExt_Gasless
+  Web3jsExt_Gasless = "/web3js-ext/gl/gasless",
+
   // EthersExt Routes
 
   // 1. Account Key
@@ -40,6 +43,9 @@ export enum RoutePath {
   EthersExt_SignTx_MultiSig = "/ethers-ext-v6/tx/multisig",
   EthersExt_SignTx_Public = "/ethers-ext-v6/tx/public",
   EthersExt_SignTx_Role = "/ethers-ext-v6/tx/role",
+
+  // 4. EthersExt_Gasless
+  EthersExt_Gasless = "/ethers-ext-v6/gl/gasless",
 
   // ViemExt Routes
 
